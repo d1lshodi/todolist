@@ -1,0 +1,54 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.egg-info/
+*.egg
+
+# Django specific files
+db.sqlite3
+.env
+# Static files
+/static/
+*.log
+
+# Media files
+/media/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+*.cover
+
+# Pytest cache
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Pylint
+pylint.log
+
+# Black
+.black/
